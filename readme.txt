@@ -4,7 +4,7 @@
 ================================================================================
 
 Name: Joseph Defendre
-Date: January 2026
+Date: January 5 2026
 Course: CS 5330 Pattern Recognition and Computer Vision
 Project: Project 1 - Video Special Effects
 
