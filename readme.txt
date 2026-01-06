@@ -108,8 +108,21 @@ Source Files:
 - src/Makefile            - Build configuration
 
 Data Files:
-- haarcascade_frontalface_alt2.xml  - Haar cascade for face detection
-- model.onnx              - ONNX model for depth estimation (optional)
+- data/haarcascade_frontalface_alt2.xml  - Haar cascade for face detection
+- data/depth_anything_v2_vits.onnx       - ONNX model for depth estimation
+
+Downloading the Depth Model:
+----------------------------
+The depth estimation model (97MB) must be downloaded separately:
+
+   curl -L -o data/depth_anything_v2_vits.onnx \
+       "https://huggingface.co/yuvraj108c/Depth-Anything-2-Onnx/resolve/main/depth_anything_v2_vits.onnx"
+
+Or download manually from:
+   https://huggingface.co/yuvraj108c/Depth-Anything-2-Onnx
+
+Note: The depth estimation feature ('d' key) will show "Depth model not available"
+if this file is not present. All other features will work without it.
 
 ================================================================================
                               TIME TRAVEL DAYS
