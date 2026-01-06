@@ -4,7 +4,7 @@
 ================================================================================
 
 Name: Joseph Defendre
-Date: January 2025
+Date: January 2026
 Course: CS 5330 Pattern Recognition and Computer Vision
 Project: Project 1 - Video Special Effects
 
@@ -128,7 +128,7 @@ if this file is not present. All other features will work without it.
                               TIME TRAVEL DAYS
 ================================================================================
 
-
+Time travel days used: 0
 
 ================================================================================
                               ACKNOWLEDGEMENTS
