@@ -1,0 +1,16 @@
+# Build artifacts
+bin/
+*.o
+
+# macOS
+.DS_Store
+
+# Large model files (download separately)
+data/depth_anything_v2_vits.onnx
+
+# IDE files
+.vscode/
+.idea/
+
+# Claude
+.claude/
